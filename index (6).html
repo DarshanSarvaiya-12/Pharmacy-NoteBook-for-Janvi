@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prescription – Digital Book</title>
+
+<style>
+:root{
+  --bg:#f4f8fb;
+  --card:#ffffff;
+  --primary:#0d6efd;
+  --text:#1f2937;
+  --muted:#6b7280;
+}
+
+*{
+  box-sizing:border-box;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+header{
+  background:linear-gradient(135deg,#0d6efd,#0aa2c0);
+  color:white;
+  padding:24px 16px;
+  text-align:center;
+}
+
+header h1{
+  margin:0;
+  font-size:26px;
+}
+
+header p{
+  margin-top:8px;
+  font-size:14px;
+  opacity:0.9;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:16px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:16px;
+  padding:18px;
+  margin-bottom:16px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.card h2{
+  font-size:20px;
+  margin-bottom:10px;
+  color:var(--primary);
+}
+
+.card h3{
+  font-size:16px;
+  margin-top:16px;
+  color:#0f766e;
+}
+
+.card p{
+  margin:6px 0;
+}
+
+ul{
+  padding-left:18px;
+}
+
+li{
+  margin-bottom:6px;
+}
+
+details{
+  background:#f9fafb;
+  padding:14px;
+  border-radius:12px;
+  margin-top:10px;
+}
+
+summary{
+  font-weight:600;
+  cursor:pointer;
+  color:#0d6efd;
+}
+
+.footer{
+  text-align:center;
+  font-size:13px;
+  color:var(--muted);
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Prescription</h1>
+  <p>Digital Pharmacy Notes – Easy & Complete</p>
+</header>
+
+<div class="container">
+
+<!-- Definition -->
+<div class="card">
+  <h2>What is a Prescription?</h2>
+  <p>
+    A prescription is a written order from a doctor or any registered medical practitioner
+    to a pharmacist to compound and dispense a specific medicine for a patient.
+  </p>
+  <p>
+    A prescription acts as a direct link between the physician, pharmacist, and patient.
+  </p>
+</div>
+
+<!-- Parts -->
+<div class="card">
+  <h2>Different Parts of a Prescription</h2>
+  <ul>
+    <li>Date</li>
+    <li>Name, Age, Sex and Address of the patient</li>
+    <li>Superscription</li>
+    <li>Inscription</li>
+    <li>Subscription</li>
+    <li>Signature (Sig)</li>
+    <li>Renewal Instruction</li>
+    <li>Signature, Address and Registration number of the prescriber</li>
+  </ul>
+</div>
+
+<!-- Date -->
+<div class="card">
+  <h2>1. Date</h2>
+  <p>
+    The date is written on the top of the prescription.
+    It helps the pharmacist to know the prescribing date and also helps in renewal.
+  </p>
+</div>
+
+<!-- Patient Details -->
+<div class="card">
+  <h2>2. Patient Details</h2>
+  <p>
+    Name and address help in identifying the patient and prevent mixing of prescriptions.
+  </p>
+  <p>
+    Age and gender help the doctor decide the dose, quantity, and route of administration.
+  </p>
+  <p>
+    In some cases, patient weight is also required to calculate the correct dose.
+  </p>
+</div>
+
+<!-- Superscription -->
+<div class="card">
+  <h2>3. Superscription (℞)</h2>
+  <p>
+    It is represented by the symbol ℞.
+    It means “pray for God” or quick recovery of the patient.
+  </p>
+  <p>
+    It is written before the prescription.
+  </p>
+</div>
+
+<!-- Inscription -->
+<div class="card">
+  <h2>4. Inscription</h2>
+  <p>
+    This is the main part of the prescription which contains the name and quantity of the drug.
+  </p>
+
+  <details>
+    <summary>Parts of Inscription</summary>
+    <p><b>Base:</b> Active drug that produces therapeutic effect.</p>
+    <p><b>Adjuvant:</b> Enhances action or makes preparation more palatable.</p>
+    <p><b>Vehicle:</b> Carrier in which drugs dissolve and volume is increased.</p>
+  </details>
+</div>
+
+<!-- Subscription -->
+<div class="card">
+  <h2>5. Subscription</h2>
+  <p>
+    In this part, the prescriber gives directions to the pharmacist regarding
+    dosage form and quantity to be dispensed.
+  </p>
+</div>
+
+<!-- Signature -->
+<div class="card">
+  <h2>6. Signature (Sig)</h2>
+  <p>
+    Sig gives directions to the patient about drug administration.
+  </p>
+  <ul>
+    <li>Quantity to be taken</li>
+    <li>Route of administration</li>
+    <li>Time of administration</li>
+    <li>Special instructions (if any)</li>
+  </ul>
+</div>
+
+<!-- Renewal -->
+<div class="card">
+  <h2>7. Renewal Instruction</h2>
+  <p>
+    The prescriber mentions whether the medicine can be renewed or not,
+    and how many times it can be renewed.
+  </p>
+  <p>
+    This is very important for habit-forming drugs to prevent misuse.
+  </p>
+</div>
+
+<!-- Prescriber -->
+<div class="card">
+  <h2>8. Prescriber Details</h2>
+  <p>
+    The prescription must be signed by the doctor.
+    Registration number and address help prevent misuse and illegal dispensing.
+  </p>
+</div>
+
+<!-- Handling -->
+<div class="card">
+  <h2>Handling of Prescription</h2>
+  <ol>
+    <li>Receiving</li>
+    <li>Reading and checking</li>
+    <li>Collecting and weighing material</li>
+    <li>Compounding, labelling and packaging</li>
+  </ol>
+</div>
+
+<!-- Errors -->
+<div class="card">
+  <h2>Sources of Errors in Prescription</h2>
+  <ul>
+    <li>Abbreviation errors</li>
+    <li>Drug name confusion</li>
+    <li>Strength not mentioned</li>
+    <li>Dosage form confusion</li>
+    <li>Wrong dose</li>
+    <li>Incomplete patient instructions</li>
+    <li>Incompatibilities</li>
+  </ul>
+</div>
+
+<div class="footer">
+  Digital Pharmacy Book • Created for Easy Learning 📘
+</div>
+
+</div>
+
+</body>
+</html>
